@@ -66,12 +66,12 @@
 				1013471820A4ED8200E15050 /* Info.plist */,
 				1013471F20A4EDCE00E15050 /* TYTextField.swift */,
 				1013472E20A4F12E00E15050 /* UIImage+Extension.swift */,
-				1013477720A4FD8800E15050 /* Images */,
+				1013477720A4FD8800E15050 /* Resources */,
 			);
 			path = TYTextField;
 			sourceTree = "<group>";
 		};
-		1013477720A4FD8800E15050 /* Images */ = {
+		1013477720A4FD8800E15050 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				1013477D20A4FD9500E15050 /* correctSymbol.png */,
@@ -81,7 +81,7 @@
 				1013477920A4FD9400E15050 /* errorSymbol@2x.png */,
 				1013477820A4FD9400E15050 /* errorSymbol@3x.png */,
 			);
-			path = Images;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
