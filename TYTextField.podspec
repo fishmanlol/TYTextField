@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/fishmanlol/TYTextField"
 
-  s.license      = "MIT"
+  s.license = { :type => "MIT", :file => "LICENSE" }
 
   s.author       = { "werur" => "werurty@163.com"}
 
@@ -29,32 +29,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/fishmanlol/TYTextField.git", :tag => "#{s.version}" }
 
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
   s.source_files  = "TYTextField", "TYTextField/**/*.{swift}"
 
-  # s.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  s.resources = "TYTextField/Resources/*"
+  s.resource = "TYTextField/Resources.bundle"
 
   s.swift_version = "4.0"
-
 
 end
