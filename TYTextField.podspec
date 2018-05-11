@@ -9,17 +9,20 @@
 Pod::Spec.new do |s|
 
   s.name         = "TYTextField"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A Customized UITextField"
 
   s.description  = <<-DESC
+                  An simple customized UITextField with righview.
                    DESC
 
   s.homepage     = "https://github.com/fishmanlol/TYTextField"
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
 
   s.author       = { "werur" => "werurty@163.com"}
+
+  s.summary = "A Customized UITextField"
 
   s.platform     = :ios
   s.ios.deployment_target = "9.0"
@@ -49,7 +52,9 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "TYTextField/Resources/*.png"
+  s.resources = "TYTextField/Resources/*"
+
+  s.swift_version = "4.0"
 
 
 end

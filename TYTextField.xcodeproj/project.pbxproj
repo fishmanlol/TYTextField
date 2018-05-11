@@ -10,12 +10,7 @@
 		1013471920A4ED8200E15050 /* TYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1013471720A4ED8200E15050 /* TYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1013472020A4EDCE00E15050 /* TYTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013471F20A4EDCE00E15050 /* TYTextField.swift */; };
 		1013472F20A4F12E00E15050 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013472E20A4F12E00E15050 /* UIImage+Extension.swift */; };
-		1013477E20A4FD9500E15050 /* errorSymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1013477820A4FD9400E15050 /* errorSymbol@3x.png */; };
-		1013477F20A4FD9500E15050 /* errorSymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1013477920A4FD9400E15050 /* errorSymbol@2x.png */; };
-		1013478020A4FD9500E15050 /* correctSymbol@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1013477A20A4FD9400E15050 /* correctSymbol@2x.png */; };
-		1013478120A4FD9500E15050 /* correctSymbol@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1013477B20A4FD9400E15050 /* correctSymbol@3x.png */; };
-		1013478220A4FD9500E15050 /* errorSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 1013477C20A4FD9500E15050 /* errorSymbol.png */; };
-		1013478320A4FD9500E15050 /* correctSymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 1013477D20A4FD9500E15050 /* correctSymbol.png */; };
+		101347BC20A51DBF00E15050 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 101347BB20A51DBF00E15050 /* Resources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +19,7 @@
 		1013471820A4ED8200E15050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1013471F20A4EDCE00E15050 /* TYTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYTextField.swift; sourceTree = "<group>"; };
 		1013472E20A4F12E00E15050 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
-		1013477820A4FD9400E15050 /* errorSymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "errorSymbol@3x.png"; sourceTree = "<group>"; };
-		1013477920A4FD9400E15050 /* errorSymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "errorSymbol@2x.png"; sourceTree = "<group>"; };
-		1013477A20A4FD9400E15050 /* correctSymbol@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "correctSymbol@2x.png"; sourceTree = "<group>"; };
-		1013477B20A4FD9400E15050 /* correctSymbol@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "correctSymbol@3x.png"; sourceTree = "<group>"; };
-		1013477C20A4FD9500E15050 /* errorSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = errorSymbol.png; sourceTree = "<group>"; };
-		1013477D20A4FD9500E15050 /* correctSymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correctSymbol.png; sourceTree = "<group>"; };
+		101347BB20A51DBF00E15050 /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,22 +56,9 @@
 				1013471820A4ED8200E15050 /* Info.plist */,
 				1013471F20A4EDCE00E15050 /* TYTextField.swift */,
 				1013472E20A4F12E00E15050 /* UIImage+Extension.swift */,
-				1013477720A4FD8800E15050 /* Resources */,
+				101347BB20A51DBF00E15050 /* Resources.bundle */,
 			);
 			path = TYTextField;
-			sourceTree = "<group>";
-		};
-		1013477720A4FD8800E15050 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1013477D20A4FD9500E15050 /* correctSymbol.png */,
-				1013477A20A4FD9400E15050 /* correctSymbol@2x.png */,
-				1013477B20A4FD9400E15050 /* correctSymbol@3x.png */,
-				1013477C20A4FD9500E15050 /* errorSymbol.png */,
-				1013477920A4FD9400E15050 /* errorSymbol@2x.png */,
-				1013477820A4FD9400E15050 /* errorSymbol@3x.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,12 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1013478020A4FD9500E15050 /* correctSymbol@2x.png in Resources */,
-				1013478220A4FD9500E15050 /* errorSymbol.png in Resources */,
-				1013478320A4FD9500E15050 /* correctSymbol.png in Resources */,
-				1013477E20A4FD9500E15050 /* errorSymbol@3x.png in Resources */,
-				1013478120A4FD9500E15050 /* correctSymbol@3x.png in Resources */,
-				1013477F20A4FD9500E15050 /* errorSymbol@2x.png in Resources */,
+				101347BC20A51DBF00E15050 /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
