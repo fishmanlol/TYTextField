@@ -12,14 +12,19 @@ extension UIImage {
     
     
     static var correctSymbol: UIImage? {
-        let frameworkBundle = Bundle(for: TYTextField.self)
-        let imagePath = frameworkBundle.path(forResource: "correctSymbol.png", ofType: nil) ?? ""
-        return UIImage(contentsOfFile: imagePath)
+        guard let bundleUrl = Bundle(for: TYTextField.self).url(forResource: "Images", withExtension: "bundle") else { return nil }
+        let bundle = Bundle(url: bundleUrl)
+        return UIImage(named: "correctSymbol.png", in: bundle, compatibleWith: nil)
     }
     
     static var errorSymbol: UIImage? {
-        let frameworkBundle = Bundle(for: TYTextField.self)
-        let imagePath = frameworkBundle.path(forResource: "errorSymbol.png", ofType: nil) ?? ""
-        return UIImage(contentsOfFile: imagePath)
+//        guard let bundleUrl = Bundle.main.url(forResource: "Images", withExtension: "bundle") else { return nil }
+//
+//        let bundle = Bundle(url: bundleUrl)
+//        return UIImage(named: "errorSymbol.png", in: bundle, compatibleWith: nil)
+        
+        guard let bundleUrl = Bundle(for: TYTextField.self).url(forResource: "Images", withExtension: "bundle") else { return nil }
+        let bundle = Bundle(url: bundleUrl)
+        return UIImage(named: "errorSymbol.png", in: bundle, compatibleWith: nil)
     }
 }
