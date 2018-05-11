@@ -12,7 +12,8 @@ extension UIImage {
     
     
     static var correctSymbol: UIImage? {
-        guard let imagePath = Bundle.main.path(forResource: "correctSymbol.png", ofType: nil) else { return nil }
+        let bundle = Bundle(for: TYTextField.self)
+        let imagePath = bundle.path(forResource: "correctSymbol.png", ofType: nil) ?? ""
         return UIImage(contentsOfFile: imagePath)
     }
     
@@ -26,7 +27,8 @@ extension UIImage {
 //        let bundle = Bundle(url: bundleUrl)
 //        return UIImage(named: "errorSymbol.png", in: bundle, compatibleWith: nil)
         
-        guard let imagePath = Bundle.main.path(forResource: "errorSymbol.png", ofType: nil) else { return nil }
+        let bundle = Bundle(for: TYTextField.self)
+        let imagePath = bundle.path(forResource: "errorSymbol.png", ofType: nil) ?? ""
         return UIImage(contentsOfFile: imagePath)
     }
 }
