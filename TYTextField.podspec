@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     }
 
   s.name         = "TYTextField"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A Customized UITextField"
 
   s.description  = <<-DESC

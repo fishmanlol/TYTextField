@@ -18,15 +18,6 @@ extension UIImage {
     }
     
     static var errorSymbol: UIImage? {
-//        guard let bundleUrl = Bundle.main.url(forResource: "Images", withExtension: "bundle") else { return nil }
-//
-//        let bundle = Bundle(url: bundleUrl)
-//        return UIImage(named: "errorSymbol.png", in: bundle, compatibleWith: nil)
-        
-//        guard let bundleUrl = Bundle(for: TYTextField.self).url(forResource: "Images", withExtension: "bundle") else { return nil }
-//        let bundle = Bundle(url: bundleUrl)
-//        return UIImage(named: "errorSymbol.png", in: bundle, compatibleWith: nil)
-        
         let bundle = Bundle(for: TYTextField.self)
         let imagePath = bundle.path(forResource: "errorSymbol.png", ofType: nil) ?? ""
         return UIImage(contentsOfFile: imagePath)

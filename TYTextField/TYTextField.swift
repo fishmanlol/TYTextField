@@ -10,6 +10,7 @@ import UIKit
 
 public class TYTextField: UITextField {
     
+    // MARK: Variables here
     public var defaultColor = UIColor.black.cgColor
     public var activeColor = UIColor(red: 68/255.0, green: 192/255.0, blue: 1.0, alpha: 1.0).cgColor
     
@@ -25,19 +26,34 @@ public class TYTextField: UITextField {
         return imageView
     }()
     
+    // MARK: Public functions
+    public func showErrorHint() {
+        rightImageView.image = UIImage.errorSymbol
+        self.rightView = rightImageView
+        
+    }
+    
+    public func showCorrectHint() {
+        rightImageView.image = UIImage.correctSymbol
+        self.rightView = rightImageView
+    }
+    
+    public func clearHint() {
+        rightImageView.image = nil
+        self.rightView = rightImageView
+    }
+    
+    // MARK: Init functions
     public override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        self.rightViewMode = .always
-        self.clearHint()
-        self.tintColor = UIColor(red: 68/255.0, green: 192/255.0, blue: 1.0, alpha: 1.0)
-        self.borderStyle = .none
-        self.layer.addSublayer(bottomLine)
+        setupTextField()
     }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setupTextField()
     }
+    
     
     override public func layoutSubviews() {
         super.layoutSubviews()
@@ -46,6 +62,20 @@ public class TYTextField: UITextField {
         setBottomLineFrame()
     }
     
+    // Highlight when active
+    override public func becomeFirstResponder() -> Bool {
+        super.becomeFirstResponder()
+        self.bottomLine.borderColor = activeColor
+        return true
+    }
+    
+    override public func resignFirstResponder() -> Bool {
+        super.resignFirstResponder()
+        self.bottomLine.borderColor = defaultColor
+        return true
+    }
+    
+    // MARK: Private functions
     private func setBottomLineFrame() {
         let x: CGFloat = 0
         let y: CGFloat = self.bounds.height  - 1
@@ -61,33 +91,13 @@ public class TYTextField: UITextField {
         rightImageView.bounds = CGRect(x: 0, y: 0, width: width, height: height)
     }
     
-    // highlight when active
-    override public func becomeFirstResponder() -> Bool {
-        super.becomeFirstResponder()
-        
-        self.bottomLine.borderColor = activeColor
-        return true
-    }
-    
-    override public func resignFirstResponder() -> Bool {
-        super.resignFirstResponder()
-        
-        self.bottomLine.borderColor = defaultColor
-        return true
-    }
-    
-    public func showErrorHint() {
-        rightImageView.image = UIImage.errorSymbol
-        self.rightView = rightImageView
-        
-    }
-    
-    public func showCorrectHint() {
-        rightImageView.image = UIImage.correctSymbol
-        self.rightView = rightImageView
-    }
-    
-    public func clearHint() {
-        self.rightView = nil
+    private func setupTextField() {
+        self.rightViewMode = .always
+        self.clearHint()
+        self.autocorrectionType = .no
+        self.autocapitalizationType = .none
+        self.tintColor = UIColor(red: 68/255.0, green: 192/255.0, blue: 1.0, alpha: 1.0)
+        self.borderStyle = .none
+        self.layer.addSublayer(bottomLine)
     }
 }
