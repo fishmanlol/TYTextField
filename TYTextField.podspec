@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "TYTextField", "TYTextField/**/*.{swift}"
 
-  s.resource = "TYTextField/Resources.bundle"
+  s.resource = "TYTextField/Resources/*.png"
 
   s.swift_version = "4.0"
 
