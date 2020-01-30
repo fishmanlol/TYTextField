@@ -1,0 +1,1467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C550A53C9E2047C83F8E85BBB558E6 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA648B969AEE539E881BF16C11E2AF2 /* ConstraintLayoutSupportDSL.swift */; };
+		039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2313D96513A80E8F04BA99EDD0DEA67 /* LayoutConstraint.swift */; };
+		04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */; };
+		05F437A01C84B92160C28808FA3F558E /* Pods-TYTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A5044BEB607838D62B7CD0A58FFA02 /* Pods-TYTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E41415C9B9FB258D2991A10E670C954 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5228CA5036072494DD03826309BBEA /* ParseManager.swift */; };
+		107F6A3823E392B300FCF5C7 /* TYTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF35DE6E45F535D30F9C79BFE2F08946 /* TYTextField.framework */; };
+		1956E392D500F3CD899D39A5F805736D /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4307E1F3A625A4254724A34EBCEDDBB6 /* Typealiases.swift */; };
+		1AFB1E9136716C0B61D6C700FF1E60FD /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF39CA44218786E411A70B9E0830C82 /* ConstraintLayoutGuide+Extensions.swift */; };
+		1D69959FAC4CBB919D4F5766FA5A2A39 /* PhoneNumberKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76ABF23FA4164D972EC9BB511736CA6D /* PhoneNumberKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE72BD05F95889BD37E5462C5821902 /* CountryListController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FB9D9AC17F1B6DE42E6D4775A43198 /* CountryListController+.swift */; };
+		21AB1101BBE4D28D74ED4EDF0D59025A /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B79102A2868B9E0E56832CC2749D1 /* ConstraintInsets.swift */; };
+		232B2F922E972D9F43D2EE15ACECE734 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FD91FFBB591A3390471448A2A9B10 /* ConstraintPriority.swift */; };
+		2349B1303D644F88E418FFBC558469FD /* TYTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E0914316998A719AE431C80B380BF8 /* TYTextFieldDelegate.swift */; };
+		2A1BBBC87AC2367BD14610A9D10D285E /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC5AD36820C95DDBA91EB726156B170 /* ConstraintAttributes.swift */; };
+		2BEE8AE897280A2C457712DA78D0610C /* CountryListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E234FA8EF64E271EEF16F95B91A5FC /* CountryListController.swift */; };
+		2C06F2E972444D359754D21AC46BFFE2 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF4481AB2A48AD458C150392C7216A9 /* ConstraintInsetTarget.swift */; };
+		2F7CCF6972A59C6EC5EF9EE4485653FF /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C2DBC13677A435A4078DAAECE5567 /* RegexManager.swift */; };
+		2FB9B4A658D35FB082AF55952F6A3EB3 /* TYTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B0A77224C410A4AA04C44CB7FF4C6D /* TYTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F4734CFB21681219F45478EA066A9E /* _TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3F2164CF3A2D7E769C3FD94038534 /* _TextField.swift */; };
+		34D505DA66F7F1D241F11EEAED659977 /* MetadataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83095C84AFD9E768173C20EC25FB0040 /* MetadataParsing.swift */; };
+		3AB4C9DAB3196FD3C32A07B8BE0A3EE3 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 3438053CB120A04249E1CDD58F1F921F /* PhoneNumberMetadata.json */; };
+		3BFC243AB9BD579969F0D5756560BCAA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38970B3F250B4FD9ABF9E39247E043B1 /* Constraint.swift */; };
+		3D715CCA2C34B2266E13F2AC74AADC23 /* TYTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 804BF04FD128C42322622AC31D9E46F1 /* TYTextField-dummy.m */; };
+		3E5285F4F36EAD77ECABBFB7F36BB1BB /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B876812FD258C784793CF95B1F74FA3 /* ConstraintView+Extensions.swift */; };
+		4280C2407B8F064398D1E1ED5768847B /* TYPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60BC7A792FFA3F8E2D3FEA9E8A60EAF /* TYPasswordTextField.swift */; };
+		49E48450D3B1D787C762E3F472BC6C87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891F06EB24C98079C308C7542290A3B2 /* Constants.swift */; };
+		4BC76F61128E26A8384FF894F3D340F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */; };
+		4C7A030DC087DE2AE3A859FA2B706C20 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F128DF6C0328076E8D5D30B5F696987 /* PhoneNumberFormatter.swift */; };
+		4C7A676DAE95EEAC3787A75349F0862D /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C89FE6D2362450D692D5490F581EF8E0 /* SnapKit-dummy.m */; };
+		4F4CB1931F3499C8E33C832AA4FBD302 /* Pods-TYTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C427488D82B3B6609063AA0AA70581FA /* Pods-TYTextField_Example-dummy.m */; };
+		51CD5887014967E77E58F5A163996454 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2120A6A07AB2ABFB802D80229C141C05 /* ConstraintMaker.swift */; };
+		5270A4984A2B15DA34313744A1A84866 /* TYPinCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE4D3AD71F8FDAD0E32C633BEC2811 /* TYPinCodeTextField.swift */; };
+		57B1876F2BE4168E5BFDB63D8CC849A0 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0557BE68E908FAB2013DBD34AA2F3C7 /* ConstraintLayoutSupport.swift */; };
+		5854DF509E8A016B6235793D04083035 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89072728540C1B056AC6FC33D695D3E7 /* ConstraintConstantTarget.swift */; };
+		60E094E9F10714D3F3F85DA32FD8AC67 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9CB924E955CCA15A8E017A4257B450 /* MetadataTypes.swift */; };
+		69CCBEEDFCA6D743D80026568D961919 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAD0F2A3A870729123914391925024B /* ConstraintMakerExtendable.swift */; };
+		69E3A06BBDFDC7D06A9D4BDC4E895E73 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D917FDE2CA0D65E714986912D88EDC0 /* ConstraintRelatableTarget.swift */; };
+		6A50434AB78167ECBAD608C377590108 /* TYTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CB053C1639D4EEF0C77AC8888DC1DD /* TYTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E0EB9E7FAAEDBB7A73ECF3095F69C4A /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397334130DE2BEDE7E18E71A06727017 /* UILayoutSupport+Extensions.swift */; };
+		6F0FE4F55B1662EBFFC19922077941C2 /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09CE9E557DC30518E6C6B4990EFBBAA /* PhoneNumberKit.swift */; };
+		71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855A8FB14CF7626F4723161F5E2746A6 /* ConstraintDirectionalInsetTarget.swift */; };
+		741FFC51E6FCC6D1D41ADC09A524F409 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50BA96DA714BD0F066A9851CC4CD28 /* String+.swift */; };
+		758C6217F02FB8C79BCB4E7BD7AC6520 /* countries in Sources */ = {isa = PBXBuildFile; fileRef = 33F42ED007A875743E2EC365B335BC32 /* countries */; };
+		75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11194A670C2A8F9C60298D999A2399 /* ConstraintMakerRelatable.swift */; };
+		76479EC3A3A4B6EDAEC5900710CB6CCD /* TYTextField-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F6AF91C9D07D5F98C3613C380A536A8 /* TYTextField-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F79AE5326D57595CC78E46368320 /* ConstraintLayoutGuideDSL.swift */; };
+		79CEA9B8B44B0E361B60A4E7240BF4B6 /* Pods-TYTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F422B5439AA35A7CADD4B82FDBEDC30E /* Pods-TYTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1702076F3A31D8D2D45A4A9F09B266 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E69FD2F8C166C2BD2ABA68B3027DA /* ConstraintMakerEditable.swift */; };
+		804A79A628BB867F00B0F640922A15CD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C9E5C6FF62C4BE438CB84D18843CF6 /* SnapKit.framework */; };
+		8277256ADEC3C4DCF79957D1CA681A9A /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5258FA4C861E33CCA502056D5BD10 /* ConstraintDSL.swift */; };
+		83E9ADA994B9A137D593FDEFDACED97C /* TYPhoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B14824EE79DC12BB603A07368AD61 /* TYPhoneTextField.swift */; };
+		8705BBF0D428BF0AE1B554A377ECC540 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BD7C4DA8DC9C8478C935B7E3FF602 /* ConstraintOffsetTarget.swift */; };
+		87AF21343A9863E794CB54C511032420 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB21AF17C7F65F8B6A19D30AEADF48F8 /* TextField.swift */; };
+		8C3F46BCEF6D859C0CF24B2936640A77 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10628D83A35FC359C1772817D3B74C /* Formatter.swift */; };
+		8CAC2FCED915B406783B43CD669A1329 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC527C6E4C700C4D70AAFA9C11DB9A1D /* PhoneNumberKit.framework */; };
+		8CCEA7902F3A3581C644ABC89421D294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */; };
+		91B01CBB7516EA6395F722AF2BA36D73 /* TYNormalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA61312D627E992D0E0A5620B83A08 /* TYNormalTextField.swift */; };
+		95952D32182ACC1154072838A2097563 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D22E2DF337B320F7866D2A3088CFA8 /* MetadataManager.swift */; };
+		99B5296A5EDECE0557B9DA53D9E19CA1 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD69618C4BB7350F402862F24F0F19 /* ConstraintItem.swift */; };
+		9B09968922C73D50040C6EEF57890D6E /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D4737C1F353FE074ECAB81DA6030DB /* ConstraintConfig.swift */; };
+		A270CD9EC3C541FE86E65AEDCEF500CF /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D8C695CA26D29FF3659F9DF3C0879 /* ConstraintLayoutGuide.swift */; };
+		A2CBCE8A4387A1E9AAECB3B53F5D2009 /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0D7151832102CAE2B60AE4589B38F9 /* PartialFormatter.swift */; };
+		A5EBF897B71A628E238A14EBDF32DF86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */; };
+		A66DC78EBA3F7BAD5EEA85B53DC92636 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF7215E42DC7C8F422E1DA6F698B70E /* Country.swift */; };
+		A66ED57B365A35434C5BAF4B990819B7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D1DE196485D6B911D30D9584D83038 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC35C9341C4BB156BB26FDD237EE3721 /* ConstraintDirectionalInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FDF1A3337D80DB44803025ACABBC2 /* ConstraintDirectionalInsets.swift */; };
+		B599696DFEF6B2A5ECF528F4E5BB1846 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24981C08B5F89FBD2186799DE2A62152 /* ConstraintDescription.swift */; };
+		B780B272106411CBE258BB60FFC45410 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB48BC2A23533659D054F910F1BDDF0 /* Debugging.swift */; };
+		B88C528851091D6A01036FFCAB17A538 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A147054A9A0793BF44C0F515860DC2D2 /* PhoneNumber.swift */; };
+		BB6B0BFBD5BDCE57D27E1B5ACD6EA73F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3483FD0753CB42C04B7EED5989CB4395 /* CoreTelephony.framework */; };
+		BECA67DFB5E0984DFAEFCB775C31972E /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3E386B4EAA6AC157348D26CFD2F490 /* ConstraintView.swift */; };
+		C412F27D75AFC0DF0F0289DBB270931C /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762C5528D36A79E6B5DCF5C2BF53A8C9 /* ConstraintMakerFinalizable.swift */; };
+		CCD2DEFD87A33BA30AC39514F5CDB146 /* PhoneNumberKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C3F079B064D1555EB9386E24FB5E9 /* PhoneNumberKit-dummy.m */; };
+		CE62FEABA57B2B53EABF8C7DCCC6B2C4 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2D9E78775B3F2D85FF390B5272927 /* ConstraintRelation.swift */; };
+		D2192847BF087D8F3C9B9C7E60F1B9F1 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B755071256CC3053C9C69A405C3BE3C9 /* PhoneNumberParser.swift */; };
+		D4697DC40F3B059E4A0867838CA1814E /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABB4A5CC7FC6747335421649CFB0CB7 /* ConstraintMultiplierTarget.swift */; };
+		D7D3DB702000C6BE11A8171729BCC071 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5CCBE7EC3004A7F6F91EA034FC33A /* Bundle.swift */; };
+		E205292C364CF4F156417C07657D7159 /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F1E0C2DFD367ABE6C29F4AE3F54E4E /* NSRegularExpression+Swift.swift */; };
+		E8F2429683B3015CBD39CE883770BCA7 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE04ADB87B454229A2B511F9A2D1B9 /* ConstraintPriorityTarget.swift */; };
+		E9A970BC24EA15832F248EA020072746 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E7F9D740A0A6F8BA3C8E0A72587ED /* LayoutConstraintItem.swift */; };
+		EB1726F5E0D0EEBA20E4528B1E37A8FA /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BB4E9C3DBD5C2698F6BCE379391557 /* ConstraintViewDSL.swift */; };
+		EE909C7C786140109051BC9562EEC7C8 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED77B97583B8B976770F562285DFD108 /* ConstraintMakerPriortizable.swift */; };
+		F1B362F8363BF93D83861808C731368B /* Pods-TYTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB41069608D50DA394E1684C6EC8E81 /* Pods-TYTextField_Tests-dummy.m */; };
+		FACEECE948F466F426D05627348482BA /* _TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82E638ABFB5D62AA98A7DD40F0E1B44 /* _TextFieldDelegate.swift */; };
+		FB65FE9C6642918E3A794FB85400643A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		158F745533A53F4E3662AB478174311E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C942A9CCE5CF382E8053D9757DA6249D;
+			remoteInfo = PhoneNumberKit;
+		};
+		1E34A15689539B144070E69A8C75514E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		745D2CF82391EF1BE1F3EE5F95182EEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
+			remoteInfo = SnapKit;
+		};
+		A9C93F3C47A9C27372433E84C215D6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5467B423C316EFBF7AE02CB197F095D8;
+			remoteInfo = "Pods-TYTextField_Example";
+		};
+		E42FD8F39A6EEE82BA1E872BA26D8DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C942A9CCE5CF382E8053D9757DA6249D;
+			remoteInfo = PhoneNumberKit;
+		};
+		FD8374192004A61CC6E4491FD16B4035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400D63FCCE810E2C91DC34EB0E0C3C65;
+			remoteInfo = TYTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0010233010F40357B28BE3CDA512C1C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09370893C6A70E7F2F1B40827B20777A /* PhoneNumberKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PhoneNumberKit-Info.plist"; sourceTree = "<group>"; };
+		0B6B14824EE79DC12BB603A07368AD61 /* TYPhoneTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYPhoneTextField.swift; path = TYTextField/Classes/TYPhoneTextField.swift; sourceTree = "<group>"; };
+		0C8B79102A2868B9E0E56832CC2749D1 /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
+		10F1E0C2DFD367ABE6C29F4AE3F54E4E /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Swift.swift"; path = "PhoneNumberKit/NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
+		125ECF9A9ADCB62AA789D9314DB965AC /* Pods-TYTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		14E176A941DBCDCD982938FC30B7B337 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		18E9CFACC29AE127FA118A25AAAC42E7 /* TYTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYTextField.modulemap; sourceTree = "<group>"; };
+		19787E67E942CD3AF7F48901357A2256 /* Pods-TYTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BF7215E42DC7C8F422E1DA6F698B70E /* Country.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		1D917FDE2CA0D65E714986912D88EDC0 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		1F128DF6C0328076E8D5D30B5F696987 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberFormatter.swift; path = PhoneNumberKit/PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		2120A6A07AB2ABFB802D80229C141C05 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		2281A95B9F677C096E2257A7DDA498BA /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		22A5CCBE7EC3004A7F6F91EA034FC33A /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		22FA8517C7CAFED92A026E00C210D0DB /* Pods_TYTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D22E2DF337B320F7866D2A3088CFA8 /* MetadataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataManager.swift; path = PhoneNumberKit/MetadataManager.swift; sourceTree = "<group>"; };
+		241FD91FFBB591A3390471448A2A9B10 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
+		24981C08B5F89FBD2186799DE2A62152 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		25AA4E735DE3FD46AD8CB0D4665F5E88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		25B0A77224C410A4AA04C44CB7FF4C6D /* TYTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYTextField.h; path = TYTextField/Classes/TYTextField.h; sourceTree = "<group>"; };
+		2AFE4D3AD71F8FDAD0E32C633BEC2811 /* TYPinCodeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYPinCodeTextField.swift; path = TYTextField/Classes/TYPinCodeTextField.swift; sourceTree = "<group>"; };
+		2C9CB924E955CCA15A8E017A4257B450 /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
+		2F3E386B4EAA6AC157348D26CFD2F490 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
+		30A5258FA4C861E33CCA502056D5BD10 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		33CB053C1639D4EEF0C77AC8888DC1DD /* TYTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYTextField-umbrella.h"; sourceTree = "<group>"; };
+		33F42ED007A875743E2EC365B335BC32 /* countries */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = countries; sourceTree = "<group>"; };
+		340E2A47ADABA0EBA0C0633E70A77DBA /* TYTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYTextField-Info.plist"; sourceTree = "<group>"; };
+		3438053CB120A04249E1CDD58F1F921F /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
+		3483FD0753CB42C04B7EED5989CB4395 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		38970B3F250B4FD9ABF9E39247E043B1 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		397334130DE2BEDE7E18E71A06727017 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		3BB48BC2A23533659D054F910F1BDDF0 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		3CB288310D09C32BA03B0EE7C62D89AD /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
+		4307E1F3A625A4254724A34EBCEDDBB6 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
+		4AA648B969AEE539E881BF16C11E2AF2 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		4B3BD7C4DA8DC9C8478C935B7E3FF602 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		4C10628D83A35FC359C1772817D3B74C /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		50D4737C1F353FE074ECAB81DA6030DB /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
+		52CEBE86387FF14BE3F15FFAA6B15592 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		53D1DE196485D6B911D30D9584D83038 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		645D8C695CA26D29FF3659F9DF3C0879 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		6475977BA78139974CDCD54FB38548C7 /* Pods_TYTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69681285C13FB58876DD5727BCB2DC85 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BD3F2164CF3A2D7E769C3FD94038534 /* _TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _TextField.swift; path = TYTextField/Classes/_TextField.swift; sourceTree = "<group>"; };
+		6EB3F79AE5326D57595CC78E46368320 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		6FF4481AB2A48AD458C150392C7216A9 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		71FB9D9AC17F1B6DE42E6D4775A43198 /* CountryListController+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CountryListController+.swift"; path = "TYTextField/Classes/CountryListController+.swift"; sourceTree = "<group>"; };
+		723E69FD2F8C166C2BD2ABA68B3027DA /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		74D4F0B3161148EB2292E9CE6BB037E5 /* TYTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TYTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		762C5528D36A79E6B5DCF5C2BF53A8C9 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		76ABF23FA4164D972EC9BB511736CA6D /* PhoneNumberKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-umbrella.h"; sourceTree = "<group>"; };
+		7AEA61312D627E992D0E0A5620B83A08 /* TYNormalTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYNormalTextField.swift; path = TYTextField/Classes/TYNormalTextField.swift; sourceTree = "<group>"; };
+		7B876812FD258C784793CF95B1F74FA3 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		7E04808ACC6A55327E0FA8D7A2BD4D1A /* Pods-TYTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYTextField_Example.modulemap"; sourceTree = "<group>"; };
+		7F6AF91C9D07D5F98C3613C380A536A8 /* TYTextField-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TYTextField-Bridging-Header.h"; path = "TYTextField/Classes/TYTextField-Bridging-Header.h"; sourceTree = "<group>"; };
+		804BF04FD128C42322622AC31D9E46F1 /* TYTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYTextField-dummy.m"; sourceTree = "<group>"; };
+		804FDF1A3337D80DB44803025ACABBC2 /* ConstraintDirectionalInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsets.swift; path = Source/ConstraintDirectionalInsets.swift; sourceTree = "<group>"; };
+		83095C84AFD9E768173C20EC25FB0040 /* MetadataParsing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataParsing.swift; path = PhoneNumberKit/MetadataParsing.swift; sourceTree = "<group>"; };
+		842C2DBC13677A435A4078DAAECE5567 /* RegexManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexManager.swift; path = PhoneNumberKit/RegexManager.swift; sourceTree = "<group>"; };
+		855A8FB14CF7626F4723161F5E2746A6 /* ConstraintDirectionalInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDirectionalInsetTarget.swift; path = Source/ConstraintDirectionalInsetTarget.swift; sourceTree = "<group>"; };
+		87877CDB5A285DDEDF4FAF468097491E /* Pods-TYTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		89072728540C1B056AC6FC33D695D3E7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		891F06EB24C98079C308C7542290A3B2 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
+		8A299319796B795FCD55848858DB9162 /* Pods-TYTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B61481218320A9570B02D57ACC17FD1 /* TYTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYTextField.xcconfig; sourceTree = "<group>"; };
+		8BB41069608D50DA394E1684C6EC8E81 /* Pods-TYTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		8DC5AD36820C95DDBA91EB726156B170 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		90A10459DDA221FF822532DEB0D8A6EA /* Pods-TYTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		940EE614A0BF6664FE89C67C1E1C9658 /* TYTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYTextField-prefix.pch"; sourceTree = "<group>"; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5228CA5036072494DD03826309BBEA /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0557BE68E908FAB2013DBD34AA2F3C7 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		A147054A9A0793BF44C0F515860DC2D2 /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
+		A54F3BF2B5FBD7CE717018A4691A78C2 /* Pods-TYTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB21AF17C7F65F8B6A19D30AEADF48F8 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = PhoneNumberKit/UI/TextField.swift; sourceTree = "<group>"; };
+		AEF2D9E78775B3F2D85FF390B5272927 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		AF8C32C535E5197DBE969A662A433F9D /* Pods-TYTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2313D96513A80E8F04BA99EDD0DEA67 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		B60BC7A792FFA3F8E2D3FEA9E8A60EAF /* TYPasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYPasswordTextField.swift; path = TYTextField/Classes/TYPasswordTextField.swift; sourceTree = "<group>"; };
+		B6E0914316998A719AE431C80B380BF8 /* TYTextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYTextFieldDelegate.swift; path = TYTextField/Classes/TYTextFieldDelegate.swift; sourceTree = "<group>"; };
+		B748F4FB57A2446436307E70DEC5E353 /* Pods-TYTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		B755071256CC3053C9C69A405C3BE3C9 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
+		B8FA52F2A3153EDDA50B903DB9D66067 /* PhoneNumberKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PhoneNumberKit.modulemap; sourceTree = "<group>"; };
+		BC50BA96DA714BD0F066A9851CC4CD28 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		C427488D82B3B6609063AA0AA70581FA /* Pods-TYTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		C5A5044BEB607838D62B7CD0A58FFA02 /* Pods-TYTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		C80E7F9D740A0A6F8BA3C8E0A72587ED /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
+		C82E638ABFB5D62AA98A7DD40F0E1B44 /* _TextFieldDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _TextFieldDelegate.swift; path = TYTextField/Classes/_TextFieldDelegate.swift; sourceTree = "<group>"; };
+		C89FE6D2362450D692D5490F581EF8E0 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		CF4BAA9326630FD8AB95F9CD2E44C45E /* PhoneNumberKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhoneNumberKit.xcconfig; sourceTree = "<group>"; };
+		D1BB4E9C3DBD5C2698F6BCE379391557 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		D1E234FA8EF64E271EEF16F95B91A5FC /* CountryListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryListController.swift; path = TYTextField/Classes/CountryListController.swift; sourceTree = "<group>"; };
+		D67DD49259AC3B99E8E2631CFF830020 /* Pods-TYTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TYTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		D73BD81CE8CDA2F196C3002455F46542 /* Pods-TYTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8A44E2F6F69590AEE4D3FA137235993 /* Pods-TYTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DABB4A5CC7FC6747335421649CFB0CB7 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		DEAD0F2A3A870729123914391925024B /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		E23845A54C79458AAB2482C4DDC1E861 /* PhoneNumberKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-prefix.pch"; sourceTree = "<group>"; };
+		E9FE04ADB87B454229A2B511F9A2D1B9 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		EB8C3F079B064D1555EB9386E24FB5E9 /* PhoneNumberKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhoneNumberKit-dummy.m"; sourceTree = "<group>"; };
+		EC527C6E4C700C4D70AAFA9C11DB9A1D /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED77B97583B8B976770F562285DFD108 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		EDAD69618C4BB7350F402862F24F0F19 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		EF35DE6E45F535D30F9C79BFE2F08946 /* TYTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09CE9E557DC30518E6C6B4990EFBBAA /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
+		F422B5439AA35A7CADD4B82FDBEDC30E /* Pods-TYTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F4C9E5C6FF62C4BE438CB84D18843CF6 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B90E27CE7611E3CA2653D5D3CC71D3 /* Pods-TYTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		FA0D7151832102CAE2B60AE4589B38F9 /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
+		FD11194A670C2A8F9C60298D999A2399 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		FDF39CA44218786E411A70B9E0830C82 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BFB73165E103D25561DDAD9096193B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EBF897B71A628E238A14EBDF32DF86 /* Foundation.framework in Frameworks */,
+				107F6A3823E392B300FCF5C7 /* TYTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18368603B09A5D4CF596F3CFC5F8C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6B0BFBD5BDCE57D27E1B5ACD6EA73F /* CoreTelephony.framework in Frameworks */,
+				FB65FE9C6642918E3A794FB85400643A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8B1704CC97EF12D3409771318C6433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04543980C4A7CE442330B0F1BC4A9A54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34AAA96841EA772EBBA3DB05AAB79A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC76F61128E26A8384FF894F3D340F6 /* Foundation.framework in Frameworks */,
+				8CAC2FCED915B406783B43CD669A1329 /* PhoneNumberKit.framework in Frameworks */,
+				804A79A628BB867F00B0F640922A15CD /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAAC4577F92085C5777D7A0EAE521705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCEA7902F3A3581C644ABC89421D294 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B06D0FA8E18866A1E096F41380B063 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3438053CB120A04249E1CDD58F1F921F /* PhoneNumberMetadata.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F36A6621D58ECCE01657F0F3FBD345E /* Pods-TYTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D67DD49259AC3B99E8E2631CFF830020 /* Pods-TYTextField_Tests.modulemap */,
+				8A299319796B795FCD55848858DB9162 /* Pods-TYTextField_Tests-acknowledgements.markdown */,
+				D73BD81CE8CDA2F196C3002455F46542 /* Pods-TYTextField_Tests-acknowledgements.plist */,
+				8BB41069608D50DA394E1684C6EC8E81 /* Pods-TYTextField_Tests-dummy.m */,
+				B748F4FB57A2446436307E70DEC5E353 /* Pods-TYTextField_Tests-Info.plist */,
+				F422B5439AA35A7CADD4B82FDBEDC30E /* Pods-TYTextField_Tests-umbrella.h */,
+				125ECF9A9ADCB62AA789D9314DB965AC /* Pods-TYTextField_Tests.debug.xcconfig */,
+				AF8C32C535E5197DBE969A662A433F9D /* Pods-TYTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-TYTextField_Tests";
+			path = "Target Support Files/Pods-TYTextField_Tests";
+			sourceTree = "<group>";
+		};
+		1F87A4737BD1829DE3B4F434291E11B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E9CFACC29AE127FA118A25AAAC42E7 /* TYTextField.modulemap */,
+				8B61481218320A9570B02D57ACC17FD1 /* TYTextField.xcconfig */,
+				804BF04FD128C42322622AC31D9E46F1 /* TYTextField-dummy.m */,
+				340E2A47ADABA0EBA0C0633E70A77DBA /* TYTextField-Info.plist */,
+				940EE614A0BF6664FE89C67C1E1C9658 /* TYTextField-prefix.pch */,
+				33CB053C1639D4EEF0C77AC8888DC1DD /* TYTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYTextField";
+			sourceTree = "<group>";
+		};
+		239E308DF019E914F6DC1A02E409B149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA175998214BE8D4F46F7C86792D14 /* PhoneNumberKit */,
+				DFFF9AAC440EFAF113F24E422618822F /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33DA4B4B7CFB4671C04DDA0C3E602478 /* TYTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3F2164CF3A2D7E769C3FD94038534 /* _TextField.swift */,
+				C82E638ABFB5D62AA98A7DD40F0E1B44 /* _TextFieldDelegate.swift */,
+				D1E234FA8EF64E271EEF16F95B91A5FC /* CountryListController.swift */,
+				71FB9D9AC17F1B6DE42E6D4775A43198 /* CountryListController+.swift */,
+				7AEA61312D627E992D0E0A5620B83A08 /* TYNormalTextField.swift */,
+				B60BC7A792FFA3F8E2D3FEA9E8A60EAF /* TYPasswordTextField.swift */,
+				0B6B14824EE79DC12BB603A07368AD61 /* TYPhoneTextField.swift */,
+				2AFE4D3AD71F8FDAD0E32C633BEC2811 /* TYPinCodeTextField.swift */,
+				25B0A77224C410A4AA04C44CB7FF4C6D /* TYTextField.h */,
+				7F6AF91C9D07D5F98C3613C380A536A8 /* TYTextField-Bridging-Header.h */,
+				B6E0914316998A719AE431C80B380BF8 /* TYTextFieldDelegate.swift */,
+				D03BF618B4367F466CB9BE078CA0C931 /* Extension */,
+				AA420A064AE413E72363F46F056E4123 /* Model */,
+				F6833D137358415AB5BEC28757D86CB8 /* Pod */,
+				1F87A4737BD1829DE3B4F434291E11B9 /* Support Files */,
+			);
+			name = TYTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C34B41E53D24A4194E99092064527D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8FA52F2A3153EDDA50B903DB9D66067 /* PhoneNumberKit.modulemap */,
+				CF4BAA9326630FD8AB95F9CD2E44C45E /* PhoneNumberKit.xcconfig */,
+				EB8C3F079B064D1555EB9386E24FB5E9 /* PhoneNumberKit-dummy.m */,
+				09370893C6A70E7F2F1B40827B20777A /* PhoneNumberKit-Info.plist */,
+				E23845A54C79458AAB2482C4DDC1E861 /* PhoneNumberKit-prefix.pch */,
+				76ABF23FA4164D972EC9BB511736CA6D /* PhoneNumberKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PhoneNumberKit";
+			sourceTree = "<group>";
+		};
+		88315D9172EDAE312602B29F22741231 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33DA4B4B7CFB4671C04DDA0C3E602478 /* TYTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B74A802EBFF36BBE854F5406728D636 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AB21AF17C7F65F8B6A19D30AEADF48F8 /* TextField.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		8D6E58EB11C209665F2B396AA357BC95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2281A95B9F677C096E2257A7DDA498BA /* SnapKit.modulemap */,
+				52CEBE86387FF14BE3F15FFAA6B15592 /* SnapKit.xcconfig */,
+				C89FE6D2362450D692D5490F581EF8E0 /* SnapKit-dummy.m */,
+				3CB288310D09C32BA03B0EE7C62D89AD /* SnapKit-Info.plist */,
+				14E176A941DBCDCD982938FC30B7B337 /* SnapKit-prefix.pch */,
+				53D1DE196485D6B911D30D9584D83038 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		94468E6EB2D8DEA7009ACB30EC232FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69681285C13FB58876DD5727BCB2DC85 /* PhoneNumberKit.framework */,
+				6475977BA78139974CDCD54FB38548C7 /* Pods_TYTextField_Example.framework */,
+				22FA8517C7CAFED92A026E00C210D0DB /* Pods_TYTextField_Tests.framework */,
+				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
+				EF35DE6E45F535D30F9C79BFE2F08946 /* TYTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA420A064AE413E72363F46F056E4123 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33F42ED007A875743E2EC365B335BC32 /* countries */,
+				1BF7215E42DC7C8F422E1DA6F698B70E /* Country.swift */,
+			);
+			name = Model;
+			path = TYTextField/Classes/Model;
+			sourceTree = "<group>";
+		};
+		B0AA175998214BE8D4F46F7C86792D14 /* PhoneNumberKit */ = {
+			isa = PBXGroup;
+			children = (
+				B89068AE794FC4951B8AE914EA11139F /* PhoneNumberKitCore */,
+				3C34B41E53D24A4194E99092064527D8 /* Support Files */,
+				8B74A802EBFF36BBE854F5406728D636 /* UIKit */,
+			);
+			path = PhoneNumberKit;
+			sourceTree = "<group>";
+		};
+		B89068AE794FC4951B8AE914EA11139F /* PhoneNumberKitCore */ = {
+			isa = PBXGroup;
+			children = (
+				891F06EB24C98079C308C7542290A3B2 /* Constants.swift */,
+				4C10628D83A35FC359C1772817D3B74C /* Formatter.swift */,
+				23D22E2DF337B320F7866D2A3088CFA8 /* MetadataManager.swift */,
+				83095C84AFD9E768173C20EC25FB0040 /* MetadataParsing.swift */,
+				2C9CB924E955CCA15A8E017A4257B450 /* MetadataTypes.swift */,
+				10F1E0C2DFD367ABE6C29F4AE3F54E4E /* NSRegularExpression+Swift.swift */,
+				9B5228CA5036072494DD03826309BBEA /* ParseManager.swift */,
+				FA0D7151832102CAE2B60AE4589B38F9 /* PartialFormatter.swift */,
+				A147054A9A0793BF44C0F515860DC2D2 /* PhoneNumber.swift */,
+				1F128DF6C0328076E8D5D30B5F696987 /* PhoneNumberFormatter.swift */,
+				F09CE9E557DC30518E6C6B4990EFBBAA /* PhoneNumberKit.swift */,
+				B755071256CC3053C9C69A405C3BE3C9 /* PhoneNumberParser.swift */,
+				842C2DBC13677A435A4078DAAECE5567 /* RegexManager.swift */,
+				01B06D0FA8E18866A1E096F41380B063 /* Resources */,
+			);
+			name = PhoneNumberKitCore;
+			sourceTree = "<group>";
+		};
+		C2015C79FBCED4715036EF6AB1169BE2 /* Pods-TYTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7E04808ACC6A55327E0FA8D7A2BD4D1A /* Pods-TYTextField_Example.modulemap */,
+				A54F3BF2B5FBD7CE717018A4691A78C2 /* Pods-TYTextField_Example-acknowledgements.markdown */,
+				19787E67E942CD3AF7F48901357A2256 /* Pods-TYTextField_Example-acknowledgements.plist */,
+				C427488D82B3B6609063AA0AA70581FA /* Pods-TYTextField_Example-dummy.m */,
+				90A10459DDA221FF822532DEB0D8A6EA /* Pods-TYTextField_Example-frameworks.sh */,
+				F9B90E27CE7611E3CA2653D5D3CC71D3 /* Pods-TYTextField_Example-Info.plist */,
+				C5A5044BEB607838D62B7CD0A58FFA02 /* Pods-TYTextField_Example-umbrella.h */,
+				D8A44E2F6F69590AEE4D3FA137235993 /* Pods-TYTextField_Example.debug.xcconfig */,
+				87877CDB5A285DDEDF4FAF468097491E /* Pods-TYTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-TYTextField_Example";
+			path = "Target Support Files/Pods-TYTextField_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				88315D9172EDAE312602B29F22741231 /* Development Pods */,
+				ECC13773A00361C0EDEB4FA9556EA4A0 /* Frameworks */,
+				239E308DF019E914F6DC1A02E409B149 /* Pods */,
+				94468E6EB2D8DEA7009ACB30EC232FE4 /* Products */,
+				DD45110C556BD3200EC102B4AC3551DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D03BF618B4367F466CB9BE078CA0C931 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				22A5CCBE7EC3004A7F6F91EA034FC33A /* Bundle.swift */,
+				BC50BA96DA714BD0F066A9851CC4CD28 /* String+.swift */,
+			);
+			name = Extension;
+			path = TYTextField/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		DD45110C556BD3200EC102B4AC3551DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2015C79FBCED4715036EF6AB1169BE2 /* Pods-TYTextField_Example */,
+				1F36A6621D58ECCE01657F0F3FBD345E /* Pods-TYTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DFFF9AAC440EFAF113F24E422618822F /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				38970B3F250B4FD9ABF9E39247E043B1 /* Constraint.swift */,
+				8DC5AD36820C95DDBA91EB726156B170 /* ConstraintAttributes.swift */,
+				50D4737C1F353FE074ECAB81DA6030DB /* ConstraintConfig.swift */,
+				89072728540C1B056AC6FC33D695D3E7 /* ConstraintConstantTarget.swift */,
+				24981C08B5F89FBD2186799DE2A62152 /* ConstraintDescription.swift */,
+				804FDF1A3337D80DB44803025ACABBC2 /* ConstraintDirectionalInsets.swift */,
+				855A8FB14CF7626F4723161F5E2746A6 /* ConstraintDirectionalInsetTarget.swift */,
+				30A5258FA4C861E33CCA502056D5BD10 /* ConstraintDSL.swift */,
+				0C8B79102A2868B9E0E56832CC2749D1 /* ConstraintInsets.swift */,
+				6FF4481AB2A48AD458C150392C7216A9 /* ConstraintInsetTarget.swift */,
+				EDAD69618C4BB7350F402862F24F0F19 /* ConstraintItem.swift */,
+				645D8C695CA26D29FF3659F9DF3C0879 /* ConstraintLayoutGuide.swift */,
+				FDF39CA44218786E411A70B9E0830C82 /* ConstraintLayoutGuide+Extensions.swift */,
+				6EB3F79AE5326D57595CC78E46368320 /* ConstraintLayoutGuideDSL.swift */,
+				A0557BE68E908FAB2013DBD34AA2F3C7 /* ConstraintLayoutSupport.swift */,
+				4AA648B969AEE539E881BF16C11E2AF2 /* ConstraintLayoutSupportDSL.swift */,
+				2120A6A07AB2ABFB802D80229C141C05 /* ConstraintMaker.swift */,
+				723E69FD2F8C166C2BD2ABA68B3027DA /* ConstraintMakerEditable.swift */,
+				DEAD0F2A3A870729123914391925024B /* ConstraintMakerExtendable.swift */,
+				762C5528D36A79E6B5DCF5C2BF53A8C9 /* ConstraintMakerFinalizable.swift */,
+				ED77B97583B8B976770F562285DFD108 /* ConstraintMakerPriortizable.swift */,
+				FD11194A670C2A8F9C60298D999A2399 /* ConstraintMakerRelatable.swift */,
+				DABB4A5CC7FC6747335421649CFB0CB7 /* ConstraintMultiplierTarget.swift */,
+				4B3BD7C4DA8DC9C8478C935B7E3FF602 /* ConstraintOffsetTarget.swift */,
+				241FD91FFBB591A3390471448A2A9B10 /* ConstraintPriority.swift */,
+				E9FE04ADB87B454229A2B511F9A2D1B9 /* ConstraintPriorityTarget.swift */,
+				1D917FDE2CA0D65E714986912D88EDC0 /* ConstraintRelatableTarget.swift */,
+				AEF2D9E78775B3F2D85FF390B5272927 /* ConstraintRelation.swift */,
+				2F3E386B4EAA6AC157348D26CFD2F490 /* ConstraintView.swift */,
+				7B876812FD258C784793CF95B1F74FA3 /* ConstraintView+Extensions.swift */,
+				D1BB4E9C3DBD5C2698F6BCE379391557 /* ConstraintViewDSL.swift */,
+				3BB48BC2A23533659D054F910F1BDDF0 /* Debugging.swift */,
+				B2313D96513A80E8F04BA99EDD0DEA67 /* LayoutConstraint.swift */,
+				C80E7F9D740A0A6F8BA3C8E0A72587ED /* LayoutConstraintItem.swift */,
+				4307E1F3A625A4254724A34EBCEDDBB6 /* Typealiases.swift */,
+				397334130DE2BEDE7E18E71A06727017 /* UILayoutSupport+Extensions.swift */,
+				8D6E58EB11C209665F2B396AA357BC95 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		ECC13773A00361C0EDEB4FA9556EA4A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC527C6E4C700C4D70AAFA9C11DB9A1D /* PhoneNumberKit.framework */,
+				F4C9E5C6FF62C4BE438CB84D18843CF6 /* SnapKit.framework */,
+				F97AE935337E7C38B2EFD4239861DB95 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6833D137358415AB5BEC28757D86CB8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				25AA4E735DE3FD46AD8CB0D4665F5E88 /* LICENSE */,
+				0010233010F40357B28BE3CDA512C1C8 /* README.md */,
+				74D4F0B3161148EB2292E9CE6BB037E5 /* TYTextField.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F97AE935337E7C38B2EFD4239861DB95 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3483FD0753CB42C04B7EED5989CB4395 /* CoreTelephony.framework */,
+				68DC234F35E4DA76694924FC194150C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05859816C4CA3429C39BA93FD07CDB71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D69959FAC4CBB919D4F5766FA5A2A39 /* PhoneNumberKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16589358664AAFD49AC3104B4E98467E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F437A01C84B92160C28808FA3F558E /* Pods-TYTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8E1C8861CFEBE6D1163A3243FAE6AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76479EC3A3A4B6EDAEC5900710CB6CCD /* TYTextField-Bridging-Header.h in Headers */,
+				6A50434AB78167ECBAD608C377590108 /* TYTextField-umbrella.h in Headers */,
+				2FB9B4A658D35FB082AF55952F6A3EB3 /* TYTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFCF5F12AEEED0500986DBC9BF76170 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66ED57B365A35434C5BAF4B990819B7 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3C599B48BDDE5A3D4B2D113E2660A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CEA9B8B44B0E361B60A4E7240BF4B6 /* Pods-TYTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8CE4DC18DBEA01587212F09727DB3D /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				7DFCF5F12AEEED0500986DBC9BF76170 /* Headers */,
+				89222AF845A30312C284F407BA48B98F /* Sources */,
+				3C8B1704CC97EF12D3409771318C6433 /* Frameworks */,
+				9C691CAA90D9565F2EFF5EF823D8A80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		400D63FCCE810E2C91DC34EB0E0C3C65 /* TYTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B3FAF899A5F546B1E927811A340367 /* Build configuration list for PBXNativeTarget "TYTextField" */;
+			buildPhases = (
+				2F8E1C8861CFEBE6D1163A3243FAE6AB /* Headers */,
+				6125B1E8485DAA3B2C20024A36552BD0 /* Sources */,
+				B34AAA96841EA772EBBA3DB05AAB79A4 /* Frameworks */,
+				B1589A7161EAE9027580505A32248895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4C7475C41FE006E13E6BF455D75C467 /* PBXTargetDependency */,
+				97DE8E521D1BDCADC88C1D46D0C82200 /* PBXTargetDependency */,
+			);
+			name = TYTextField;
+			productName = TYTextField;
+			productReference = EF35DE6E45F535D30F9C79BFE2F08946 /* TYTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4BB884A4EE028D20F3934F54C9B7940B /* Pods-TYTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E811F5F3028EC4464C866B46AAC71396 /* Build configuration list for PBXNativeTarget "Pods-TYTextField_Tests" */;
+			buildPhases = (
+				BC3C599B48BDDE5A3D4B2D113E2660A7 /* Headers */,
+				31DE01B08B06B54181E7509CCC81ECA0 /* Sources */,
+				CAAC4577F92085C5777D7A0EAE521705 /* Frameworks */,
+				1E8B72C66FDED46CDD79984A96567195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737B3DF8C2028C64CE51CB0DB6381E7A /* PBXTargetDependency */,
+			);
+			name = "Pods-TYTextField_Tests";
+			productName = "Pods-TYTextField_Tests";
+			productReference = 22FA8517C7CAFED92A026E00C210D0DB /* Pods_TYTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5467B423C316EFBF7AE02CB197F095D8 /* Pods-TYTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEF3ACC5EFE34EBC116687E23B9FBB2 /* Build configuration list for PBXNativeTarget "Pods-TYTextField_Example" */;
+			buildPhases = (
+				16589358664AAFD49AC3104B4E98467E /* Headers */,
+				C38109493C7E724EA34073789C70BF7B /* Sources */,
+				13BFB73165E103D25561DDAD9096193B /* Frameworks */,
+				9DBF38E582BEFFF44103A8795C2FE2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E0502AC0FD923E45D59C34012E0BD5 /* PBXTargetDependency */,
+				BEA7FFDC993CDBAC7F49EF1F8116DC97 /* PBXTargetDependency */,
+				EB714634C172F135AD2D31A60B358942 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYTextField_Example";
+			productName = "Pods-TYTextField_Example";
+			productReference = 6475977BA78139974CDCD54FB38548C7 /* Pods_TYTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B93BAD2203BE660179DF6A062BFA4C6 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */;
+			buildPhases = (
+				05859816C4CA3429C39BA93FD07CDB71 /* Headers */,
+				27DDF00EEF14CD8AD241C744EB13CCCC /* Sources */,
+				18368603B09A5D4CF596F3CFC5F8C487 /* Frameworks */,
+				A155B761019DDBE8EA55FB49C92D0832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneNumberKit;
+			productName = PhoneNumberKit;
+			productReference = 69681285C13FB58876DD5727BCB2DC85 /* PhoneNumberKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 94468E6EB2D8DEA7009ACB30EC232FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */,
+				5467B423C316EFBF7AE02CB197F095D8 /* Pods-TYTextField_Example */,
+				4BB884A4EE028D20F3934F54C9B7940B /* Pods-TYTextField_Tests */,
+				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
+				400D63FCCE810E2C91DC34EB0E0C3C65 /* TYTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E8B72C66FDED46CDD79984A96567195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C691CAA90D9565F2EFF5EF823D8A80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBF38E582BEFFF44103A8795C2FE2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A155B761019DDBE8EA55FB49C92D0832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB4C9DAB3196FD3C32A07B8BE0A3EE3 /* PhoneNumberMetadata.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1589A7161EAE9027580505A32248895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27DDF00EEF14CD8AD241C744EB13CCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E48450D3B1D787C762E3F472BC6C87 /* Constants.swift in Sources */,
+				8C3F46BCEF6D859C0CF24B2936640A77 /* Formatter.swift in Sources */,
+				95952D32182ACC1154072838A2097563 /* MetadataManager.swift in Sources */,
+				34D505DA66F7F1D241F11EEAED659977 /* MetadataParsing.swift in Sources */,
+				60E094E9F10714D3F3F85DA32FD8AC67 /* MetadataTypes.swift in Sources */,
+				E205292C364CF4F156417C07657D7159 /* NSRegularExpression+Swift.swift in Sources */,
+				0E41415C9B9FB258D2991A10E670C954 /* ParseManager.swift in Sources */,
+				A2CBCE8A4387A1E9AAECB3B53F5D2009 /* PartialFormatter.swift in Sources */,
+				B88C528851091D6A01036FFCAB17A538 /* PhoneNumber.swift in Sources */,
+				4C7A030DC087DE2AE3A859FA2B706C20 /* PhoneNumberFormatter.swift in Sources */,
+				CCD2DEFD87A33BA30AC39514F5CDB146 /* PhoneNumberKit-dummy.m in Sources */,
+				6F0FE4F55B1662EBFFC19922077941C2 /* PhoneNumberKit.swift in Sources */,
+				D2192847BF087D8F3C9B9C7E60F1B9F1 /* PhoneNumberParser.swift in Sources */,
+				2F7CCF6972A59C6EC5EF9EE4485653FF /* RegexManager.swift in Sources */,
+				87AF21343A9863E794CB54C511032420 /* TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31DE01B08B06B54181E7509CCC81ECA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B362F8363BF93D83861808C731368B /* Pods-TYTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6125B1E8485DAA3B2C20024A36552BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F4734CFB21681219F45478EA066A9E /* _TextField.swift in Sources */,
+				FACEECE948F466F426D05627348482BA /* _TextFieldDelegate.swift in Sources */,
+				D7D3DB702000C6BE11A8171729BCC071 /* Bundle.swift in Sources */,
+				758C6217F02FB8C79BCB4E7BD7AC6520 /* countries in Sources */,
+				A66DC78EBA3F7BAD5EEA85B53DC92636 /* Country.swift in Sources */,
+				1DE72BD05F95889BD37E5462C5821902 /* CountryListController+.swift in Sources */,
+				2BEE8AE897280A2C457712DA78D0610C /* CountryListController.swift in Sources */,
+				741FFC51E6FCC6D1D41ADC09A524F409 /* String+.swift in Sources */,
+				91B01CBB7516EA6395F722AF2BA36D73 /* TYNormalTextField.swift in Sources */,
+				4280C2407B8F064398D1E1ED5768847B /* TYPasswordTextField.swift in Sources */,
+				83E9ADA994B9A137D593FDEFDACED97C /* TYPhoneTextField.swift in Sources */,
+				5270A4984A2B15DA34313744A1A84866 /* TYPinCodeTextField.swift in Sources */,
+				3D715CCA2C34B2266E13F2AC74AADC23 /* TYTextField-dummy.m in Sources */,
+				2349B1303D644F88E418FFBC558469FD /* TYTextFieldDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89222AF845A30312C284F407BA48B98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFC243AB9BD579969F0D5756560BCAA /* Constraint.swift in Sources */,
+				2A1BBBC87AC2367BD14610A9D10D285E /* ConstraintAttributes.swift in Sources */,
+				9B09968922C73D50040C6EEF57890D6E /* ConstraintConfig.swift in Sources */,
+				5854DF509E8A016B6235793D04083035 /* ConstraintConstantTarget.swift in Sources */,
+				B599696DFEF6B2A5ECF528F4E5BB1846 /* ConstraintDescription.swift in Sources */,
+				AC35C9341C4BB156BB26FDD237EE3721 /* ConstraintDirectionalInsets.swift in Sources */,
+				71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */,
+				8277256ADEC3C4DCF79957D1CA681A9A /* ConstraintDSL.swift in Sources */,
+				21AB1101BBE4D28D74ED4EDF0D59025A /* ConstraintInsets.swift in Sources */,
+				2C06F2E972444D359754D21AC46BFFE2 /* ConstraintInsetTarget.swift in Sources */,
+				99B5296A5EDECE0557B9DA53D9E19CA1 /* ConstraintItem.swift in Sources */,
+				1AFB1E9136716C0B61D6C700FF1E60FD /* ConstraintLayoutGuide+Extensions.swift in Sources */,
+				A270CD9EC3C541FE86E65AEDCEF500CF /* ConstraintLayoutGuide.swift in Sources */,
+				77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */,
+				57B1876F2BE4168E5BFDB63D8CC849A0 /* ConstraintLayoutSupport.swift in Sources */,
+				01C550A53C9E2047C83F8E85BBB558E6 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				51CD5887014967E77E58F5A163996454 /* ConstraintMaker.swift in Sources */,
+				7C1702076F3A31D8D2D45A4A9F09B266 /* ConstraintMakerEditable.swift in Sources */,
+				69CCBEEDFCA6D743D80026568D961919 /* ConstraintMakerExtendable.swift in Sources */,
+				C412F27D75AFC0DF0F0289DBB270931C /* ConstraintMakerFinalizable.swift in Sources */,
+				EE909C7C786140109051BC9562EEC7C8 /* ConstraintMakerPriortizable.swift in Sources */,
+				75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */,
+				D4697DC40F3B059E4A0867838CA1814E /* ConstraintMultiplierTarget.swift in Sources */,
+				8705BBF0D428BF0AE1B554A377ECC540 /* ConstraintOffsetTarget.swift in Sources */,
+				232B2F922E972D9F43D2EE15ACECE734 /* ConstraintPriority.swift in Sources */,
+				E8F2429683B3015CBD39CE883770BCA7 /* ConstraintPriorityTarget.swift in Sources */,
+				69E3A06BBDFDC7D06A9D4BDC4E895E73 /* ConstraintRelatableTarget.swift in Sources */,
+				CE62FEABA57B2B53EABF8C7DCCC6B2C4 /* ConstraintRelation.swift in Sources */,
+				3E5285F4F36EAD77ECABBFB7F36BB1BB /* ConstraintView+Extensions.swift in Sources */,
+				BECA67DFB5E0984DFAEFCB775C31972E /* ConstraintView.swift in Sources */,
+				EB1726F5E0D0EEBA20E4528B1E37A8FA /* ConstraintViewDSL.swift in Sources */,
+				B780B272106411CBE258BB60FFC45410 /* Debugging.swift in Sources */,
+				039EAFE7935113805F3FC21BF1B7C9D5 /* LayoutConstraint.swift in Sources */,
+				E9A970BC24EA15832F248EA020072746 /* LayoutConstraintItem.swift in Sources */,
+				4C7A676DAE95EEAC3787A75349F0862D /* SnapKit-dummy.m in Sources */,
+				1956E392D500F3CD899D39A5F805736D /* Typealiases.swift in Sources */,
+				6E0EB9E7FAAEDBB7A73ECF3095F69C4A /* UILayoutSupport+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38109493C7E724EA34073789C70BF7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4CB1931F3499C8E33C832AA4FBD302 /* Pods-TYTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737B3DF8C2028C64CE51CB0DB6381E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TYTextField_Example";
+			target = 5467B423C316EFBF7AE02CB197F095D8 /* Pods-TYTextField_Example */;
+			targetProxy = A9C93F3C47A9C27372433E84C215D6AE /* PBXContainerItemProxy */;
+		};
+		97DE8E521D1BDCADC88C1D46D0C82200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 1E34A15689539B144070E69A8C75514E /* PBXContainerItemProxy */;
+		};
+		B4C7475C41FE006E13E6BF455D75C467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */;
+			targetProxy = 158F745533A53F4E3662AB478174311E /* PBXContainerItemProxy */;
+		};
+		BEA7FFDC993CDBAC7F49EF1F8116DC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
+			targetProxy = 745D2CF82391EF1BE1F3EE5F95182EEF /* PBXContainerItemProxy */;
+		};
+		D5E0502AC0FD923E45D59C34012E0BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = C942A9CCE5CF382E8053D9757DA6249D /* PhoneNumberKit */;
+			targetProxy = E42FD8F39A6EEE82BA1E872BA26D8DB3 /* PBXContainerItemProxy */;
+		};
+		EB714634C172F135AD2D31A60B358942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYTextField;
+			target = 400D63FCCE810E2C91DC34EB0E0C3C65 /* TYTextField */;
+			targetProxy = FD8374192004A61CC6E4491FD16B4035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		020BEC27E3AD6D7C84D288C148A58E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CEBE86387FF14BE3F15FFAA6B15592 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F264C46EAF036B10EB683D322AA6E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8C32C535E5197DBE969A662A433F9D /* Pods-TYTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTextField_Tests/Pods-TYTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTextField_Tests/Pods-TYTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E3C8A300772E0028147E4BAF0D5078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CEBE86387FF14BE3F15FFAA6B15592 /* SnapKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				PRODUCT_MODULE_NAME = SnapKit;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33AC4511514D79144EA5D4B3024E60F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87877CDB5A285DDEDF4FAF468097491E /* Pods-TYTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTextField_Example/Pods-TYTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTextField_Example/Pods-TYTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44DAF2161E51893D67FBAEDD382BC94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A44E2F6F69590AEE4D3FA137235993 /* Pods-TYTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTextField_Example/Pods-TYTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTextField_Example/Pods-TYTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BDE54607D4D465B40E27978AE808A348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B61481218320A9570B02D57ACC17FD1 /* TYTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYTextField/TYTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYTextField/TYTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYTextField/TYTextField.modulemap";
+				PRODUCT_MODULE_NAME = TYTextField;
+				PRODUCT_NAME = TYTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD07784DB54B458A8FE2F0CD151B7FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4BAA9326630FD8AB95F9CD2E44C45E /* PhoneNumberKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				PRODUCT_MODULE_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3CF0684214E2F27EBB84F1A2BC87509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B61481218320A9570B02D57ACC17FD1 /* TYTextField.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYTextField/TYTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYTextField/TYTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYTextField/TYTextField.modulemap";
+				PRODUCT_MODULE_NAME = TYTextField;
+				PRODUCT_NAME = TYTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E32A50B0805180BD5ACB6A54BA49455D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125ECF9A9ADCB62AA789D9314DB965AC /* Pods-TYTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYTextField_Tests/Pods-TYTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYTextField_Tests/Pods-TYTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEFEA03ACCEFC378BD2396F9C2A28124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4BAA9326630FD8AB95F9CD2E44C45E /* PhoneNumberKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				PRODUCT_MODULE_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEF3ACC5EFE34EBC116687E23B9FBB2 /* Build configuration list for PBXNativeTarget "Pods-TYTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DAF2161E51893D67FBAEDD382BC94E /* Debug */,
+				33AC4511514D79144EA5D4B3024E60F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B3FAF899A5F546B1E927811A340367 /* Build configuration list for PBXNativeTarget "TYTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CF0684214E2F27EBB84F1A2BC87509 /* Debug */,
+				BDE54607D4D465B40E27978AE808A348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B93BAD2203BE660179DF6A062BFA4C6 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD07784DB54B458A8FE2F0CD151B7FD0 /* Debug */,
+				EEFEA03ACCEFC378BD2396F9C2A28124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8CE4DC18DBEA01587212F09727DB3D /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3C8A300772E0028147E4BAF0D5078A /* Debug */,
+				020BEC27E3AD6D7C84D288C148A58E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E811F5F3028EC4464C866B46AAC71396 /* Build configuration list for PBXNativeTarget "Pods-TYTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32A50B0805180BD5ACB6A54BA49455D /* Debug */,
+				1F264C46EAF036B10EB683D322AA6E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,32 @@
+PODS:
+  - PhoneNumberKit (3.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.1.0)
+    - PhoneNumberKit/UIKit (= 3.1.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.1.0)
+  - PhoneNumberKit/UIKit (3.1.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - SnapKit (5.0.1)
+  - TYTextField (0.1.0):
+    - PhoneNumberKit (~> 3.1.0)
+    - SnapKit (~> 5.0.1)
+
+DEPENDENCIES:
+  - TYTextField (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PhoneNumberKit
+    - SnapKit
+
+EXTERNAL SOURCES:
+  TYTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PhoneNumberKit: adffe4e128af1918386e09e7421d3d851a2987af
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  TYTextField: b0dc36c87aff9cf0dc784b003f1e692e5e568e10
+
+PODFILE CHECKSUM: 789b9a0eb7a6a0aec71634ae3438648813f10b47
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module TYTextField {
+  umbrella header "TYTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
