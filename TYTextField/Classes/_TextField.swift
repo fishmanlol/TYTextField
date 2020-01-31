@@ -293,7 +293,7 @@ class _TextField: UITextField {
     struct Line: CustomStringConvertible {
         var description: String {
             get {
-                "(\(start.x), \(start.y)) -> (\(end.x), \(end.y))"
+                return "(\(start.x), \(start.y)) -> (\(end.x), \(end.y))"
             }
         }
         

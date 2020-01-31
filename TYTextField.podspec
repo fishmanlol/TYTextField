@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYTextField'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'A simple textfield framework which include phone number and pin code input'
 
 # This description is used to generate tags and improve search results.

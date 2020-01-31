@@ -237,15 +237,15 @@ open class PhoneNumberTextField: UITextField, UITextFieldDelegate {
 
         let font = self.font ?? UIFont.preferredFont(forTextStyle: .body)
         let ph = NSMutableAttributedString(string: example, attributes: [.font: font])
-        if #available(iOS 13.0, *), self.withPrefix {
-            // because the textfield will automatically handle insert & removal of the international prefix we make the
-            // prefix darker to indicate non default behaviour to users, this behaviour currently only happens on iOS 13
-            // and above just because that is where we have access to label colors
-            let firstSpaceIndex = example.firstIndex(where: { $0 == " " }) ?? example.startIndex
-
-            ph.addAttribute(.foregroundColor, value: UIColor.secondaryLabel, range: NSRange(..<firstSpaceIndex, in: example))
-            ph.addAttribute(.foregroundColor, value: UIColor.tertiaryLabel, range: NSRange(firstSpaceIndex..., in: example))
-        }
+//        if #available(iOS 13.0, *), self.withPrefix {
+//            // because the textfield will automatically handle insert & removal of the international prefix we make the
+//            // prefix darker to indicate non default behaviour to users, this behaviour currently only happens on iOS 13
+//            // and above just because that is where we have access to label colors
+//            let firstSpaceIndex = example.firstIndex(where: { $0 == " " }) ?? example.startIndex
+//
+//            ph.addAttribute(.foregroundColor, value: UIColor.secondaryLabel, range: NSRange(..<firstSpaceIndex, in: example))
+//            ph.addAttribute(.foregroundColor, value: UIColor.tertiaryLabel, range: NSRange(firstSpaceIndex..., in: example))
+//        }
         self.attributedPlaceholder = ph
     }
 
