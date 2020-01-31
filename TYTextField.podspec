@@ -24,14 +24,14 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/werurty@163.com/TYTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'werurty@163.com' => 'tyacal9527@gmail.com' }
-  s.source           = { :git => 'https://github.com/werurty@163.com/TYTextField.git', :tag => s.version.to_s }
+  s.author           = { 'werurty@163.com' => "tyacal9527@gmail.com" }
+  s.source           = { :git => 'https://github.com/fishmanlol/TYTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TYTextField/Classes/**/*'
-  
+  s.swift_versions = '5.0' 
   # s.resource_bundles = {
   #   'TYTextField' => ['TYTextField/Assets/*.png']
   # }

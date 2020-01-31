@@ -278,7 +278,7 @@ class _TextField: UITextField {
     }
     
     private func setDefaultTextAttribute(key: NSAttributedString.Key, value: Any) {
-        defaultTextAttributes[key.rawValue] = value
+        defaultTextAttributes[key] = value
     }
     
     //MARK: - TYTextFieldType enum
