@@ -10,7 +10,7 @@ public class TYPasswordTextField: TYNormalTextField {
     private weak var hideButton: UIButton!
     private var canSetRightView = true
     
-    var hide: Bool = true {
+    public var isSecure: Bool = true {
         didSet {
             didChangeState()
         }
@@ -40,7 +40,7 @@ public class TYPasswordTextField: TYNormalTextField {
     //MARK: - Helpers
     private func setUp() {
         rightView = createHideButton()
-        hide = true
+        isSecure = true
     }
     
     private func createHideButton() -> UIButton {
@@ -52,7 +52,7 @@ public class TYPasswordTextField: TYNormalTextField {
     }
     
     private func didChangeState() {
-        if hide {
+        if isSecure {
             hideButton.setTitle("show", for: .normal)
             _textField.isSecureTextEntry = true
         } else {
@@ -72,6 +72,6 @@ public class TYPasswordTextField: TYNormalTextField {
     }
     
     @objc private func didTapHideButton(button: UIButton) {
-        hide = !hide
+        isSecure = !isSecure
     }
 }

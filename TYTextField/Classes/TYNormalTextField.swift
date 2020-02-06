@@ -212,6 +212,18 @@ public class TYNormalTextField: UIView {
         _textField.snp.makeConstraints { (make) in
             make.left.right.bottom.equalToSuperview()
         }
+        _textField.addTarget(self, action: #selector(didEditingChange), for: .editingChanged)
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(didTapRecognized))
+        addGestureRecognizer(tap)
+    }
+    
+    @objc private func didEditingChange(tf: _TextField) {
+        delegate?.textFieldDidChange(self)
+    }
+    
+    @objc private func didTapRecognized(tap: UITapGestureRecognizer) {
+        _textField.becomeFirstResponder()
     }
     
     private func updateLabelColor() {

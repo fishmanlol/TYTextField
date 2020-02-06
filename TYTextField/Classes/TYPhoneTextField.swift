@@ -102,7 +102,8 @@ public class TYPhoneTextField: TYNormalTextField {
     
      //MARK: - Helpers
      private func setUp() {
-         leftView = createAreaView()
+        leftView = createAreaView()
+        keyboardType = .numberPad
     }
     
     private func formatText(in textField: _TextField) {

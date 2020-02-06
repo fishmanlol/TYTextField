@@ -18,6 +18,7 @@ public protocol TYTextFieldDelegate: class {
     func textFieldShouldEndEditing(_ textField: TYNormalTextField) -> Bool
     func textFieldShouldBeginEditing(_ textField: TYNormalTextField) -> Bool
     func textFieldDidChangeSelection(_ textField: TYNormalTextField)
+    func textFieldDidChange(_ textField: TYNormalTextField)
 }
 
 public extension TYTextFieldDelegate {
@@ -30,4 +31,5 @@ public extension TYTextFieldDelegate {
     func textFieldShouldEndEditing(_ textField: TYNormalTextField) -> Bool { return true }
     func textFieldShouldBeginEditing(_ textField: TYNormalTextField) -> Bool { return true }
     func textFieldDidChangeSelection(_ textField: TYNormalTextField) {}
+    func textFieldDidChange(_ textField: TYNormalTextField) {}
 }
