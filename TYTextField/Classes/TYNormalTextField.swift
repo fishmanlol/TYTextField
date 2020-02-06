@@ -343,7 +343,7 @@ extension TYNormalTextField: UITextFieldDelegate {
     }
     
     public func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        return delegate?.textFieldShouldEndEditing(self) ?? true
+        return delegate?.textFieldShouldBeginEditing(self) ?? true
     }
     
     public func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
