@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TYTextField'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A simple textfield framework which include phone number and pin code input'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'TYTextField/Classes/**/*'
+  s.resources = ['TYTextField/Assets/*']
   s.swift_versions = '5.0' 
   # s.resource_bundles = {
   #   'TYTextField' => ['TYTextField/Assets/*.png']

@@ -49,7 +49,6 @@
 		6F0FE4F55B1662EBFFC19922077941C2 /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09CE9E557DC30518E6C6B4990EFBBAA /* PhoneNumberKit.swift */; };
 		71DE9DC2FA583526AB4D1FD7F00C099C /* ConstraintDirectionalInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855A8FB14CF7626F4723161F5E2746A6 /* ConstraintDirectionalInsetTarget.swift */; };
 		741FFC51E6FCC6D1D41ADC09A524F409 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50BA96DA714BD0F066A9851CC4CD28 /* String+.swift */; };
-		758C6217F02FB8C79BCB4E7BD7AC6520 /* countries in Sources */ = {isa = PBXBuildFile; fileRef = 33F42ED007A875743E2EC365B335BC32 /* countries */; };
 		75E146C12D1287228A0B493E87CDE31F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11194A670C2A8F9C60298D999A2399 /* ConstraintMakerRelatable.swift */; };
 		76479EC3A3A4B6EDAEC5900710CB6CCD /* TYTextField-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F6AF91C9D07D5F98C3613C380A536A8 /* TYTextField-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77C9889055A3B32EA13A9616824DB0ED /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F79AE5326D57595CC78E46368320 /* ConstraintLayoutGuideDSL.swift */; };
@@ -166,7 +165,6 @@
 		2F3E386B4EAA6AC157348D26CFD2F490 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		30A5258FA4C861E33CCA502056D5BD10 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		33CB053C1639D4EEF0C77AC8888DC1DD /* TYTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYTextField-umbrella.h"; sourceTree = "<group>"; };
-		33F42ED007A875743E2EC365B335BC32 /* countries */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = countries; sourceTree = "<group>"; };
 		340E2A47ADABA0EBA0C0633E70A77DBA /* TYTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYTextField-Info.plist"; sourceTree = "<group>"; };
 		3438053CB120A04249E1CDD58F1F921F /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
 		3483FD0753CB42C04B7EED5989CB4395 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
@@ -433,7 +431,6 @@
 		AA420A064AE413E72363F46F056E4123 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				33F42ED007A875743E2EC365B335BC32 /* countries */,
 				1BF7215E42DC7C8F422E1DA6F698B70E /* Country.swift */,
 			);
 			name = Model;
@@ -849,7 +846,6 @@
 				30F4734CFB21681219F45478EA066A9E /* _TextField.swift in Sources */,
 				FACEECE948F466F426D05627348482BA /* _TextFieldDelegate.swift in Sources */,
 				D7D3DB702000C6BE11A8171729BCC071 /* Bundle.swift in Sources */,
-				758C6217F02FB8C79BCB4E7BD7AC6520 /* countries in Sources */,
 				A66DC78EBA3F7BAD5EEA85B53DC92636 /* Country.swift in Sources */,
 				1DE72BD05F95889BD37E5462C5821902 /* CountryListController+.swift in Sources */,
 				2BEE8AE897280A2C457712DA78D0610C /* CountryListController.swift in Sources */,
