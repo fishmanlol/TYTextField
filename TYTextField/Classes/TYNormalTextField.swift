@@ -8,7 +8,7 @@
 import SnapKit
 
 public class TYNormalTextField: UIView {
-    internal weak var _textField: _TextField!
+    internal var _textField: _TextField!
     internal var hasLabel = false
     internal lazy var label: UILabel = {
         let label = createLabel()
